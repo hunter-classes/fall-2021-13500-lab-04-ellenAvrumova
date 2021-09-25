@@ -29,5 +29,14 @@ int main() {
     std::cout << result;
     std::cout << "\n------------------\n";
 
+    result = cross(8);
+    std::cout << "cross(8): \n";
+    std::cout << result;
+    std::cout << "\n------------------\n";
+    result = cross(21);
+    std::cout << "cross(21): \n";
+    std::cout << result;
+    std::cout << "\n------------------\n";
+
     return 0;
 }
