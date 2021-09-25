@@ -7,7 +7,7 @@
  */
 
 #include <iostream>
-#include "box.h"
+#include "shapes.h"
 
 int main() {
     std::string result;
@@ -17,6 +17,15 @@ int main() {
     std::cout << "\n------------------\n";
     result = box(7,4);
     std::cout << "box(7,4): \n";
+    std::cout << result;
+    std::cout << "\n------------------\n";
+    
+    result = checkerboard(11,6);
+    std::cout << "checkerboard(11,6): \n";
+    std::cout << result;
+    std::cout << "\n------------------\n";
+    result = checkerboard(20,10);
+    std::cout << "checkerboard(20,9): \n";
     std::cout << result;
     std::cout << "\n------------------\n";
 

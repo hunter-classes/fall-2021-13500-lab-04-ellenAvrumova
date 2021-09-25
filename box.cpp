@@ -7,14 +7,14 @@
  */
 
 #include <iostream>
-#include "box.h"
+#include "shapes.h"
 
 std::string box(int width, int height) {
     std::cout << "Input width: " << width << std::endl;
     std::cout << "Input height: " << height << std::endl;
     std::string box;
-    for(int i = 0; i < height; i++) {
-        for(int x = 0; x < width; x++) {
+    for(int row = 0; row < height; row++) {
+        for(int col = 0; col < width; col++) {
             box += "*";
         }
         box += "\n";
