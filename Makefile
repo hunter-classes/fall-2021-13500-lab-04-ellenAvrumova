@@ -4,8 +4,8 @@
 # Assignment: Lab 4
 # This is the Makefile for all parts of Lab4. 
 
-main: main.o box.o checkerboard.o cross.o lower.o
-	g++ -o main main.o box.o checkerboard.o cross.o lower.o
+main: main.o box.o checkerboard.o cross.o lower.o upper.o
+	g++ -o main main.o box.o checkerboard.o cross.o lower.o upper.o
 
 main.o: main.cpp shapes.h
 	g++ -c main.cpp
@@ -21,6 +21,9 @@ cross.o: cross.cpp shapes.h
 
 lower.o: lower.cpp shapes.h
 	g++ -c lower.cpp
+
+upper.o: upper.cpp shapes.h
+	g++ -c upper.cpp
 
 clean:
 	rm main.o box.o checkerboard.o cross.o lower.o
