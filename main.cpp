@@ -65,6 +65,20 @@ int main() {
     std::cout << "Shape: " << std::endl;
     std::cout << result;
     std::cout << "\n------------------\n";
+
+    result = trapezoid(12,5);
+    std::cout << result;
+    std::cout << "\n------------------\n";
+    result = trapezoid(5,3);
+    std::cout << result;
+    std::cout << "\n------------------\n";
+    result = trapezoid(12,7);
+    std::cout << result;
+    std::cout << "\n------------------\n";
+    result = trapezoid(20,11);
+    std::cout << result;
+    std::cout << "\n------------------\n";
+
     
     return 0;
 }
