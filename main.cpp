@@ -4,6 +4,7 @@
  * Instructor: Tong Yi & Mike Zamansky
  * Assignment: Lab 4
  * 
+ * This is the main function that calls all other functions in Lab4.
  */
 
 #include <iostream>
