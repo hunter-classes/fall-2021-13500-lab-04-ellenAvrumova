@@ -38,5 +38,15 @@ int main() {
     std::cout << result;
     std::cout << "\n------------------\n";
 
+    result = lower(6);
+    std::cout << "lower(6): " << std::endl;
+    std::cout << result;
+    std::cout << "\n------------------\n";
+
+    result = lower(13);
+    std::cout << "lower(13): " << std::endl;
+    std::cout << result;
+    std::cout << "\n------------------\n";
+
     return 0;
 }
