@@ -26,6 +26,6 @@ upper.o: upper.cpp shapes.h
 	g++ -c upper.cpp
 
 clean:
-	rm main.o box.o checkerboard.o cross.o lower.o
+	rm main.o box.o checkerboard.o cross.o lower.o upper.o
 
 
