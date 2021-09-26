@@ -30,8 +30,8 @@ trapezoid.o: trapezoid.cpp shapes.h
 
 checkerboard3x3.o: checkerboard3x3.cpp shapes.h
 	g++ -c checkerboard3x3.cpp
-	
+
 clean:
-	rm main.o box.o checkerboard.o cross.o lower.o upper.o
+	rm main.o box.o checkerboard.o cross.o lower.o upper.o trapezoid.o checkerboard3x3.o
 
 

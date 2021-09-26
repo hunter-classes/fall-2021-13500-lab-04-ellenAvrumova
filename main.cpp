@@ -79,6 +79,16 @@ int main() {
     std::cout << result;
     std::cout << "\n------------------\n";
 
-    
+    result = checkerboard3(16,11);
+    std::cout << "checkerboard(16,11): \n";
+    std::cout << "Shape: " << std::endl;
+    std::cout << result;
+    std::cout << "\n------------------\n";
+    result = checkerboard3(27,27);
+    std::cout << "checkerboard(16,11): \n";
+    std::cout << "Shape: " << std::endl;
+    std::cout << result;
+    std::cout << "\n------------------\n";
+
     return 0;
 }
