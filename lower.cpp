@@ -2,7 +2,7 @@
  * Author: Ellen Avrumova
  * Course: CSCI-135
  * Instructor: Tong Yi & Mike Zamansky
- * Assignment: Lab 4
+ * Assignment: Lab 4D
  * 
  * This function takes in an inputted length and prints the bottom left half of a square with that length.
  */
