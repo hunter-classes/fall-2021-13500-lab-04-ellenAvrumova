@@ -1,3 +1,12 @@
+/**
+ * Author: Ellen Avrumova
+ * Course: CSCI-135
+ * Instructor: Tong Yi & Mike Zamansky
+ * Assignment: Lab 4E
+ * 
+ * This function takes in an inputted length and prints prints the top right half of a square with that length.
+ */
+
 #include <iostream>
 
 std::string upper(int length) {

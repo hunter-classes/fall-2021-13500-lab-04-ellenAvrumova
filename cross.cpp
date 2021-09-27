@@ -1,3 +1,12 @@
+/**
+ * Author: Ellen Avrumova
+ * Course: CSCI-135
+ * Instructor: Tong Yi & Mike Zamansky
+ * Assignment: Lab 4C
+ * 
+ * This function takes in an inputted size and prints a diagonal cross of that dimension.
+ */
+
 #include <iostream>
 
 std::string cross(int size) {

@@ -2,8 +2,9 @@
  * Author: Ellen Avrumova
  * Course: CSCI-135
  * Instructor: Tong Yi & Mike Zamansky
- * Assignment: Lab 4
+ * Assignment: Lab 4A
  * 
+ * This function takes in an inputted width and height and prints a box with those dimensions.
  */
 
 #include <iostream>

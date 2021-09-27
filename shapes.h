@@ -1,3 +1,12 @@
+/**
+ * Author: Ellen Avrumova
+ * Course: CSCI-135
+ * Instructor: Tong Yi & Mike Zamansky
+ * Assignment: Lab 4
+ * 
+ * This is the header file that contains all the function prototypes for Lab4.
+ */
+
 #include <string>
 
 std::string box(int width, int height);

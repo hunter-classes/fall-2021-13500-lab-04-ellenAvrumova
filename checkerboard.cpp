@@ -1,3 +1,13 @@
+/**
+ * Author: Ellen Avrumova
+ * Course: CSCI-135
+ * Instructor: Tong Yi & Mike Zamansky
+ * Assignment: Lab 4B
+ * 
+ * This function takes in an inputted width and height and prints a box that alternates between
+ * spaces and astericks with those dimensions.
+ */
+
 #include <iostream>
 
 std::string checkerboard(int width, int height) {

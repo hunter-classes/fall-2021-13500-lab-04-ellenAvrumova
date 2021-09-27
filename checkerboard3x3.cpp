@@ -1,3 +1,12 @@
+/**
+ * Author: Ellen Avrumova
+ * Course: CSCI-135
+ * Instructor: Tong Yi & Mike Zamansky
+ * Assignment: Lab 4G
+ * 
+ * This function takes in an inputted width and height and prints a checkerboard with 3x3 squares.
+ */
+
 #include <iostream>
 
 std::string checkerboard3(int width, int height) {

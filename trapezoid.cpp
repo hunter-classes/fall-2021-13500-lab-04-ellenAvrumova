@@ -1,3 +1,14 @@
+/**
+ * Author: Ellen Avrumova
+ * Course: CSCI-135
+ * Instructor: Tong Yi & Mike Zamansky
+ * Assignment: Lab 4F
+ * 
+ * This function takes in an inputted width and height and prints
+ * an upside down trapezoid or triangle with those dimensions.
+ * If an impossible size is inputted, it let's the user know.
+ */
+
 #include <iostream>
 
 std::string trapezoid(int width, int height) {
